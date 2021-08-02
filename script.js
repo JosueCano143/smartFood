@@ -52,11 +52,15 @@ $(window).on('keydown', function(e) {
 })
 
 var Fake = [
-  'Hola, soy Prometeo, ¿qué platillo desea preparar?',
-  'Entendido, ¿Cuántas porciones necesitas cocinar?',
-  '¿Algún comentario adicional para tu alimento deseado?',
-  'Excelente. Los ingredientes son los siguientes: 500g de col morada, 300g de zanahoria y 100g betabel',
-  'Es un placer servirte :)'
+   'Hola, soy Prometeo, soy la IA que te ayudará a crear tu alimento ideal. /n ¿Cuál es el nobmbre de tu compañia?',
+  'Entendido, ¿Cuál es el nombre del producto que desea preparar?',
+  'Puedo ayudarte de diferentes maneras: A)Crear un producto desde cero en su totalidad. B)Mejorar tu producto.   Por favor elige la opción que necesites:',
+  '¡Excelente Veggie delicatessen!, ahora elige en qué rubro quieres mejorar tu producto: A)Propiedades organolépticas(sabor, color, etc). B)Aspectos nutricionales (kcal, proteinas, fibra, etc).  C)Otro.    Por favor selecciona la opción que necesites',
+  'Las propiedades organolépticas son enormes, dime en cuáles propiedades te gustaría que me enfocara: A)Sabor B)Olor C)Color D)Textura E)Ruido F) Sensaciones térmicas G)Sensaciones químicas H)Sensaciones táctiles  Por favor selecciona la opción que necesites',
+  'El sabor es elemental al vender un producto, ¿qué sabor o sabores consideras qeu tu formmulación necesita mejorar para tener tu producto ideal?  A)Dulce B)Salado C)Amargo D)Ácido E)Astringente F)Picante G)Umami',
+  '¡Ya casi acabamos! Por favor, envianos la formulación de tu producto, no te preocues, el secreto estará bien guardado y jamás compartiremos la receta con alguien ajeno.',
+  'Gracias por confiar en nosotros, revisaremos tu formulación y crearemos mejoras en el Sabor Dulce y Ácido de acuerdo  nuestra base de datos, te enviaremos los resultados lo más pronto posible.',
+  'Hasta la proxima. :)'
 ]
 
 function fakeMessage() {
